@@ -43,7 +43,7 @@ def login():
 
 	time.sleep(1)
 	search_bar = driver.find_element_by_xpath("/html/body/div[1]/section/nav/div[2]/div/div/div[2]/input")
-	search_bar.send_keys("iamhimanshu0")
+	search_bar.send_keys("You can enter your name")
 	search_bar.send_keys(Keys.ENTER)
 	url = driver.current_url
 	time.sleep(1)
